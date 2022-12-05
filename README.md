@@ -17,12 +17,12 @@ Aplicação 4 em 1 para android feita em Dart usando o framework flutter nivél 
 <br/>
 
 <div style="display: inline-block">
-    <img height="1000px" src="https://i.ibb.co/DRkDBqb/photo-1-2022-12-05-00-28-23.jpg" alt="imagem">
-    <img height="1000px" src="https://i.ibb.co/Z6042C7/photo-4-2022-12-05-00-28-23.jpg" alt="imagem">
-    <img height="1000px" src="https://i.ibb.co/rkPFTRR/photo-3-2022-12-05-00-28-23.jpg" alt="imagem">
-    <img height="1000px" src="https://i.ibb.co/j9NDjTj/photo-5-2022-12-05-00-28-23.jpg" alt="imagem">
-    <img height="1000px" src="https://i.ibb.co/yqt4R3x/photo-6-2022-12-05-00-28-23.jpg" alt="imagem">
-    <img height="1000px" src="https://i.ibb.co/TkhwRqq/photo-2-2022-12-05-00-28-23.jpg" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/DRkDBqb/photo-1-2022-12-05-00-28-23.jpg" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/Z6042C7/photo-4-2022-12-05-00-28-23.jpg" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/rkPFTRR/photo-3-2022-12-05-00-28-23.jpg" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/j9NDjTj/photo-5-2022-12-05-00-28-23.jpg" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/yqt4R3x/photo-6-2022-12-05-00-28-23.jpg" alt="imagem">
+    <img width="46%" src="https://i.ibb.co/TkhwRqq/photo-2-2022-12-05-00-28-23.jpg" alt="imagem">
     
 </div>
 
