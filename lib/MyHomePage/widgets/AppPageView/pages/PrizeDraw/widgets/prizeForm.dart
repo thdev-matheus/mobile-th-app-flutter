@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:th_app/MyHomePage/widgets/Button/index.dart';
-import 'package:th_app/MyHomePage/widgets/NumberInput/index.dart';
+import 'package:th_app/MyHomePage/widgets/NumberIntInput/index.dart';
 
 class PrizeForm extends StatelessWidget {
   const PrizeForm({
@@ -18,7 +18,7 @@ class PrizeForm extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        NumberInput(textEditingController: textEditingController),
+        NumberIntInput(textEditingController: textEditingController),
         Button(
           marginTop: 0,
           marginRigth: 0,
