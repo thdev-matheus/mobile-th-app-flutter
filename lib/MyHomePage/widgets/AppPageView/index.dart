@@ -36,8 +36,8 @@ class _AppPageViewState extends State<AppPageView> {
       children: [
         WelcomePage(vh: vh, vw: vw),
         PlusCounter(vh: vh, vw: vw),
-        PrizeDraw(),
-        ToDoList(),
+        const PrizeDraw(),
+        const ToDoList(),
         Container(
           color: Colors.tealAccent,
         ),
