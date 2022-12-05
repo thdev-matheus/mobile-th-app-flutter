@@ -12,7 +12,7 @@
 <br/>
 <br/>
 
-Aplicação 4 em 1 para android feita em Dart usando o framework flutter nivél básico. Entre os apps você encontrará um contador, um sorteador, um to do list e uma calculadora imc.
+Aplicação 4 em 1 para android feita em Dart usando o framework flutter nível básico. Entre os apps você encontrará um contador, um sorteador, um to do list e uma calculadora imc.
 
 <br/>
 
