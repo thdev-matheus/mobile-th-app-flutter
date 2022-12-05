@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:th_app/MyHomePage/widgets/Button/index.dart';
+import 'package:th_app/MyHomePage/widgets/TextInput/index.dart';
 
 class ToDoForm extends StatelessWidget {
   const ToDoForm({
@@ -16,39 +17,18 @@ class ToDoForm extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        SizedBox(
+        TextInput(
           width: 200,
-          child: TextField(
-            controller: textEditingController,
-            cursorColor: const Color.fromRGBO(7, 153, 146, 1.0),
-            style: const TextStyle(
-              color: Color.fromRGBO(9, 85, 93, 1.0),
-            ),
-            decoration: const InputDecoration(
-              hintText: "Digite uma tarefa",
-              helperText: "Tarefa a ser exibida na lista",
-              helperStyle: TextStyle(
-                fontSize: 12,
-                color: Color.fromRGBO(7, 153, 146, 1.0),
-              ),
-              label: Text("Tarefa"),
-              labelStyle: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Color.fromRGBO(7, 153, 146, 1.0),
-              ),
-              focusedBorder: UnderlineInputBorder(
-                borderSide: BorderSide(
-                  color: Color.fromRGBO(7, 153, 146, 1.0),
-                ),
-              ),
-              border: UnderlineInputBorder(
-                borderSide: BorderSide(
-                  color: Color.fromRGBO(7, 153, 146, 1.0),
-                ),
-              ),
-            ),
-          ),
+          textEditingController: textEditingController,
+          cursorColor: const Color.fromRGBO(7, 153, 146, 1.0),
+          textColor: const Color.fromRGBO(9, 85, 93, 1.0),
+          placeholder: "Digite uma tarefa",
+          helperText: "Tarefa a ser exibida na lista",
+          helperColor: Color.fromRGBO(7, 153, 146, 1.0),
+          label: "Tarefa",
+          labelSize: 20,
+          labelColor: Color.fromRGBO(7, 153, 146, 1.0),
+          focusBorderColor: Color.fromRGBO(7, 153, 146, 1.0),
         ),
         Button(
           marginTop: 0,
