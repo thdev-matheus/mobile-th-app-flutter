@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import "dart:math";
 
-import 'package:th_app/MyHomePage/widgets/AppPageView/pages/PrizeDraw/widgets/header.dart';
+import 'package:th_app/MyHomePage/widgets/AppPageView/pages/PrizeDraw/widgets/PrizeHeader.dart';
 import 'package:th_app/MyHomePage/widgets/AppPageView/pages/PrizeDraw/widgets/prizeForm.dart';
-import 'package:th_app/MyHomePage/widgets/Button/index.dart';
-import 'package:th_app/MyHomePage/widgets/NumberInput/index.dart';
 
 class PrizeDraw extends StatefulWidget {
   const PrizeDraw({super.key});
@@ -40,7 +38,7 @@ class _PrizeDrawState extends State<PrizeDraw> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            const Header(),
+            const PrizeHeader(),
             PrizeForm(
                 textEditingController: textEditingController,
                 action: () {

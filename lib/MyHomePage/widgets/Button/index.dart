@@ -11,6 +11,7 @@ class Button extends StatelessWidget {
     required this.width,
     required this.radius,
     required this.bgColor,
+    required this.text,
     required this.textColor,
     required this.action,
   });
@@ -25,6 +26,7 @@ class Button extends StatelessWidget {
 
   final double radius;
   final Color bgColor;
+  final String text;
   final Color textColor;
 
   final action;
@@ -46,9 +48,12 @@ class Button extends StatelessWidget {
       ),
       child: TextButton(
         onPressed: action,
-        child: const Text(
-          "SORTEAR",
-          style: TextStyle(color: Colors.white),
+        child: Text(
+          text,
+          style: const TextStyle(
+            fontSize: 12,
+            color: Colors.white,
+          ),
         ),
       ),
     );

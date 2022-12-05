@@ -28,6 +28,7 @@ class PrizeForm extends StatelessWidget {
           width: 120,
           radius: 32,
           bgColor: const Color.fromRGBO(7, 153, 146, 1.0),
+          text: "SORTEAR",
           textColor: Colors.white,
           action: action,
         ),

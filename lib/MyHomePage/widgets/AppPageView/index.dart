@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:th_app/MyHomePage/widgets/AppPageView/pages/PlusCounter/index.dart';
 import 'package:th_app/MyHomePage/widgets/AppPageView/pages/PrizeDraw/index.dart';
+import 'package:th_app/MyHomePage/widgets/AppPageView/pages/ToDoList/index.dart';
 import 'package:th_app/MyHomePage/widgets/AppPageView/pages/WelcomePage/index.dart';
 
 class AppPageView extends StatefulWidget {
@@ -36,9 +37,7 @@ class _AppPageViewState extends State<AppPageView> {
         WelcomePage(vh: vh, vw: vw),
         PlusCounter(vh: vh, vw: vw),
         PrizeDraw(),
-        Container(
-          color: Colors.limeAccent,
-        ),
+        ToDoList(),
         Container(
           color: Colors.tealAccent,
         ),

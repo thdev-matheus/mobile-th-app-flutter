@@ -13,6 +13,7 @@ class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: const Color.fromRGBO(105, 240, 174, 0.4),
       padding: const EdgeInsets.all(24),
       child: Column(
         children: [
