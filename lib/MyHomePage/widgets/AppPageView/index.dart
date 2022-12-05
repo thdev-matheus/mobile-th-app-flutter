@@ -1,8 +1,10 @@
 // ignore_for_file: prefer_typing_uninitialized_variables
 
 import 'package:flutter/material.dart';
+import 'package:th_app/MyHomePage/widgets/AppPageView/pages/IMCCalculator/index.dart';
 import 'package:th_app/MyHomePage/widgets/AppPageView/pages/PlusCounter/index.dart';
 import 'package:th_app/MyHomePage/widgets/AppPageView/pages/PrizeDraw/index.dart';
+import 'package:th_app/MyHomePage/widgets/AppPageView/pages/ToDoList/index.dart';
 import 'package:th_app/MyHomePage/widgets/AppPageView/pages/WelcomePage/index.dart';
 
 class AppPageView extends StatefulWidget {
@@ -35,13 +37,9 @@ class _AppPageViewState extends State<AppPageView> {
       children: [
         WelcomePage(vh: vh, vw: vw),
         PlusCounter(vh: vh, vw: vw),
-        PrizeDraw(),
-        Container(
-          color: Colors.limeAccent,
-        ),
-        Container(
-          color: Colors.tealAccent,
-        ),
+        const PrizeDraw(),
+        const ToDoList(),
+        const IMCCalculator()
       ],
     );
   }

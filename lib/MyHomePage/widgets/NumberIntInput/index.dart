@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class NumberInput extends StatelessWidget {
-  const NumberInput({
+class NumberIntInput extends StatelessWidget {
+  const NumberIntInput({
     super.key,
     required this.textEditingController,
   });
